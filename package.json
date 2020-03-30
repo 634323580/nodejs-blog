@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-blog",
+  "version": "1.0.0",
+  "description": "Node.js 从零开发web server博客项目",
+  "main": "bin/www.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nodemon ./bin/www.js",
+    "prd": "cross-env NODE_ENV=production nodemon ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/634323580/nodejs-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/634323580/nodejs-blog/issues"
+  },
+  "homepage": "https://github.com/634323580/nodejs-blog#readme",
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {}
+}
